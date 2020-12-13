@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Participant's information</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 		
+        <link rel="stylesheet" href="./css/bootstrap.min.css">
+        <link rel="stylesheet" href="./js/bootstrap.bundle.min.js">
+        <link rel="stylesheet" href="./css/styles.css">
+
+        <script src="js/jquery.min.js"></script>
+        <script src="js/popper.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script>
+            $(document).ready(function() {
+                $("header").load("header.html");
+                $("footer").load("footer.html");
+            });
+        </script>
+
+    </head>
+
+    <body class="bg-dark">
+        
+        <header></header>
+        <div class="container">
+            <h2 class="mt-5 pb-3">Your information</h2>
+        <div class="row">
+            <div class="col-4">
+                <div class="">
+                    <img src="images/ProfileImage.png" class="img-fluid" id="">
+                </div>
+                    <div class="mt-3">
+                        <h2>Don Othello</h2>
+                        <ul>
+                            <li><b>Credits: $25.10</b></li>
+                            <li>Email: donothello@shakespeare.com</li>
+                            <li>Date of birth: 31/02/1999</li>
+                            <li>Phone: 063141592</li>
+                        </ul>
+                        <a href="campingreg.html" class="btn btn-info">Change Details</a>
+                    </div>
+            </div>
+            <div class="col-4">
+                <h3 class="mb-3">Ticket status:</h3>
+                <span>Purchase Ticket</span>
+                <div class="mb-3">
+                    <input type="radio" name="payment" value="ideal"> iDeal<br>
+                    <input type="radio" name="payment" value="paypal"> PayPal<br>
+                    <input type="radio" name="payment" value="ipay"> iPay<br>
+                </div>
+                <button type="submit" class="btn btn-info">Buy Ticket</button>
+            </div>
+
+            <div class="col-4">
+                <h3 class="mb-3">Camping status:</h3>
+                <a href="campingreg.html" class="btn btn-info">Rent a Campsite!</a>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-6">
+                <label for="activationcode" class="mb-1 mt-4">Enter bundle code:</label>
+            <div class="row">
+                <div class="col-6 pr-0">
+                    <div class="">
+                        <input type="text" placeholder="Enter Code" name="activationcode" class="mb-2 form-control">
+                    </div>
+                </div>
+                <div class="col-6">
+                    <div class="">
+                        <button type="submit" class="btn btn-info">Activate Code</button> 
+                    </div>
+                </div>
+            </div>
+            </div>
+            <div class="col-6">
+                <label for="activationcode" class="mb-1 mt-4">Don't have a bundle?</label><br>
+                <a href="bundles.html" class="btn btn-info">Buy Bundles Here!</a> 
+            </div>
+            
+        </div>
+        </div>
+        
+        
+        
+        <footer></footer>
+    </body>
+</html>

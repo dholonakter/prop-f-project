@@ -1,0 +1,20 @@
+* DOABLE, RANKED BY URGENCY:
+- staff and problems loading from database
+- try-catch errors
+- input validation
+- sql injection protection
+- fix the GUI up
+	no blank space/unfilled GUI
+	names for GUI components
+	uniform style/theme
+	changing the application's icon and forms' names
+- clean up empty methods/events that we don't use
+- COMMENT THE CODE!!!!!!!!!!!!!! (probably a thanh-designated task)
+- chart to show total money earned from a certain product
+- adding timerUpdate onto things that can use a good timerUpdate
+- add search functions onto inventory form in manager
+
+* NOT AS DOABLE: 
+- camp map syncing with availability
+	vague ideas: use a list/arrays of points
+- look into javascript embedded on a c# software (save time) 

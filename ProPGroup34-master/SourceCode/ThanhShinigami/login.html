@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 		
+        <link rel="stylesheet" href="./css/bootstrap.min.css">
+        <link rel="stylesheet" href="./js/bootstrap.bundle.min.js">
+        <link rel="stylesheet" href="./css/styles.css">
+        <link rel="stylesheet" href="./css/stylesyt.css">
+
+        <!-- Custom fonts  -->
+        <link rel="stylesheet" href="vendor/font-awesome/css/font-awesome.min.css">
+        <link rel="stylesheet" href="vendor/simple-line-icons/css/simple-line-icons.css">
+        <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Catamaran:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet">
+
+        <title>Login</title>
+
+        <script src="js/jquery.min.js"></script>
+        <script src="js/popper.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script>
+            $(document).ready(function() {
+                $("header").load("header.html");
+                $("footer").load("footer.html");
+            });
+        </script>
+
+    </head>
+
+    <body class="bg-light">
+        <header></header>
+        <div class="container">
+            <div class="row">
+                <div class ="bg-secondary formthing col-5 mx-auto mt-5  text-center">
+                    <h2 class="mt-4 mb-3 pb-2">Login</h2>
+
+                    <form class>
+                        <div class="row mb-1 ml-5 mr-5">
+                            <p class="col-4 text-left">Username:</p>
+                            <input class="col-8" type="text" name="name" placeholder="Name">
+                        </div>
+
+                        <div class="row mb-1 ml-5 mr-5">
+                            <p class="col-4 my-auto text-left">Password:</p>
+                            <input class="col-8" type="text" name="name" placeholder="Name">
+                        </div>
+
+
+                        <div class="row mb-4 ml-5 mr-5">
+                            <button class="w-100 pt-2 pb-2 btn btn-info btn-success mt-3" type="submit">Login</button>
+                        </div>
+                    </form>
+
+                    <div class="row ml-5 mr-5">
+                        <p>Don't have an account?</p>
+                        <a class="mb-4 pt-2 pb-2 btn btn-info btn-success" href="signup.html">Sign up</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

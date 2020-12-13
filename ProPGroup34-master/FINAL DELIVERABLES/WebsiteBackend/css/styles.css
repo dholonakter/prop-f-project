@@ -1,0 +1,234 @@
+.bg-dark {background-color: #000000 !important;}
+
+body 
+{
+    color: white;
+    font-size: 90%;
+}
+
+a {color: #EA6969;}
+
+a:hover
+{
+    color: #ffffff;
+    text-decoration: none;
+}
+
+#collapsibleNavbar .font {font-size: 20px;}
+
+h1, h2, h3, h4 {font-weight: bold;}
+h1{font-size: 200%;}
+h2{font-size: 180%;}
+h3{font-size: 160%;}
+h4{font-size: 140%;}
+
+/* buttons */
+
+.btn-info, .btn-danger, .btn-primary, .btn-secondary, .btn-success, .btn-warning
+{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.btn-info
+{
+    width: 220px;
+    background-color: #aa1d1d;
+    border-color: #aa1d1d ;
+}
+
+.btn-info:hover
+{
+    background-color: #c82333;
+    border-color: #bd2130 ;
+}
+
+
+.btn-success
+{
+    background-color: #aa1d1d;
+    border-color: #aa1d1d ;
+}
+
+.btn-success:hover
+{
+    background-color: #c82333;
+    border-color: #bd2130 ;
+}
+
+.btn-secondary
+{
+    position: relative; /* used together with .centering */
+    height: 80px;
+    width: 110px;
+    background-color: #aa1d1d;
+    border-color: #aa1d1d ;
+}
+
+.btn-secondary:hover
+{
+    background-color: #c82333;
+    border-color: #bd2130 ; 
+}
+
+/* fancy stuff */
+
+.centering
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.centering-Y /* currently not in use */
+{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+ul.containeded a.assigned
+{
+    position: relative;
+    z-index: 0;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+ul.contained a
+{
+    color: #FFF;
+    text-decoration: none;
+    font: 22px;
+    font-weight: bold;
+    text-align: center;
+    margin: 0px 10px;
+    padding: 10px 10px;
+    
+    position: relative;
+    z-index: 0;
+    cursor: pointer;
+}
+
+/* Circle behind */
+ul.circleBehind a:before, ul.circleBehind a:after
+{
+    position: absolute;
+    top: 28px;
+    left: 50%;
+    width: 50px;
+    height: 50px;
+    border: 4px solid #aa1d1d;
+    transform: translateX(-50%) translateY(-50%) scale(0.8);
+    border-radius: 50%;
+    background: transparent;
+    content: "";
+    opacity: 0;
+    transition: all 0.3s;
+    z-index: -1;
+}
+
+ul.circleBehind a:after
+{
+    border-width: 2px;
+    transition: all 0.4s;
+}
+
+ul.circleBehind a:hover:before
+{
+    opacity: 1;
+    transform: translateX(-50%) translateY(-50%) scale(1);
+}
+
+ul.circleBehind a:hover:after
+{
+    opacity: 1;
+    transform: translateX(-50%) translateY(-50%) scale(1.3);
+}
+
+
+/* Border X get width for ul */
+ul.borderXwidth a.assigned:before, div.borderXwidth a.assigned:after
+{
+    position: absolute;
+    opacity: 0;
+    width: 0%;
+    height: 2px;
+    content: '';
+    background: #aa1d1d;
+    transition: all 0.3s;
+}
+
+ul.borderXwidth a.assigned:after
+{
+    right: 0px;
+    top: 0px;
+}
+
+ul.borderXwidth a.assigned:before
+{
+    left: 0px;
+    bottom: 0px;
+}
+
+ul.borderXwidth a.assigned:hover:before, div.borderXwidth a:hover:after
+{
+    opacity: 1;
+    width: 100%;
+}
+
+.img-opaque
+{
+    opacity: 0.7;
+}
+
+.img-opaque:hover
+{
+    opacity: 1;
+    transition: all 0.3s;
+}
+
+
+/* Style all font awesome icons */
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 70px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    color: white;
+    opacity: 0.7;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+    opacity: 1;
+    color: white;
+    transition: all 0.4s;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+/* Twitter */
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}

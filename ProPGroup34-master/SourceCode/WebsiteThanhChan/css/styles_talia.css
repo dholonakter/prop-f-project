@@ -1,0 +1,416 @@
+/* that shade of red: #aa1d1d */
+/* --- thanh: organized and fixed --- */
+
+/* --- GENERIC --- */
+* {
+    font-family: Segoe UI;
+    font-size: 14px; 
+}
+
+img {
+    max-width: 100%;
+}
+html body {
+    background-color:	#0D0D0D !important;
+    color: white;
+}
+
+h1, h2, h3 {
+    font-weight: bold;
+}
+
+h2 {
+    margin: 10px 0; 
+    text-transform: uppercase;
+    font-size: 30px;
+}
+
+h3 {
+    font-size: 18px;
+}
+p {
+    color: #797979;
+}
+
+input {
+    font-size: 13px;
+}
+
+.paginationButtons {
+    text-align: center; 
+}
+
+.paginationButtons button {
+    background-color: #1f2525;
+    margin-top: 20px;
+    font-size: 10px;
+}
+.btn:hover {
+    color:  #ef2828 !important;
+    background-color: white !important;
+    transition: .5s;
+}
+
+.btn {
+    font-size: 12px; 
+    outline: none !important;
+    box-shadow: none !important;
+    background-color: #aa1d1d;
+    color:  #eaeaea;
+    border-radius: 0px; 
+}
+
+/* --- ARTICLE FOR EVENTS + FUNACTIVITIES --- */
+.article {
+    margin-top: 15px; 
+}
+.article img {
+    max-width: 100%;
+}
+.article p {
+    color: #797979;
+}
+.article h3 {
+    padding: 5px 5px 5px 0;
+    color: #dbdbdb;
+}
+
+.article h3:hover {
+    transition: .5s;
+    cursor: pointer;
+}
+
+.articleImage {
+    max-width: 100%;
+    max-height: 100%;
+    margin-bottom: 10px;
+}
+
+.article .btn {
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 1px;
+    padding: 15px;
+    float: right;
+}
+/* --- LOGIN + SIGNUP --- */
+.login {
+    margin: auto; 
+    margin-top: 5%; 
+    width: 50%; 
+    padding: 30px;
+    padding-top: 0px;
+    background-color: #2b0202;
+}
+.login * {
+    overflow: hidden;
+}
+.login img { 
+    margin-top: 10px;
+    margin-bottom: 10px;
+    max-width: 80%;
+    
+}
+
+.login input {
+    margin-bottom: 12px;
+}
+
+.login label {
+    margin-top: 3px;
+}
+
+.login input {
+    width: 100%; 
+}
+
+.login .loginForm {
+    margin: auto;
+}
+
+.login .btn {
+    width: 100%;
+}
+
+/* --- HEADER --- */
+.miniTopNav {
+    padding: 0; 
+    margin-top: 20px; 
+    margin-bottom: 20px; 
+}
+.miniTopNav ul {
+    list-style: none; 
+    text-align: right;
+    margin-right: 20px; 
+}
+
+.miniTopNav li{
+    display: inline-block;
+}
+
+.miniTopNav li a {
+    font-size: 11px; 
+    color: #dbdbdb;
+}
+
+.miniTopNav li a:hover {
+    text-decoration: none;
+    cursor: pointer;
+    color: #aa1d1d;
+}
+
+.miniTopNav li:last-child{
+    margin-left: -5px;
+}
+
+.miniTopNav li img {
+    width: 80%; 
+}
+
+.topNav li:first-child{
+    padding: 0;
+    border-bottom: 5px solid #aa1d1d;
+}
+
+.topNav li:first-child:hover{
+    border-bottom: 6px solid #eaeaea;
+    transition: .5s;
+    cursor: pointer;
+}
+.topNav li:first-child img {
+    width: 130px;
+    height: 30px;
+    margin: 10px; 
+}
+
+.topNav ul {
+    padding: 0;
+    text-align: left;
+}
+
+.topNav li {
+    display: inline-block;
+    margin-right: -4.5px; 
+    padding: 18px 0 18px 0; 
+    background-color: black;    
+}
+
+.topNav li:nth-child(2) a{
+    margin-left: -2px;
+}
+.topNav li:last-child a {
+    margin-right: -2px;
+}
+
+.topNav li a{
+    font-size: 13px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #dbdbdb;
+    background-color: #0d0d0d;
+    padding: 20px 48px;
+}
+.topNav li:not(:first-child) a:hover{
+    cursor: pointer;
+    text-decoration: none;
+    background-color: #1f2525;
+    border-bottom: 5px solid #aa1d1d;
+    color: #aa1d1d;
+    transition: .3s;
+}
+
+/* --- ACTIVITIES PAGE --- */
+.activitybuttons {
+    text-align: center;
+}
+.activitybuttons button {
+    text-transform: uppercase;
+    font-size: 13x;
+    font-weight: bold;
+    height: 120px;
+    width: 150px;
+    margin: 0 20px; 
+}
+
+/* --- INDEX --- */
+.indexNav button{
+    float: right;
+    margin: 0 0 0 10px;
+    margin-top: 5%;
+    height: 100px; 
+    width: 170px; 
+}
+.sponsors img {
+    margin-left: 10px;
+}
+.sponsors img:hover{
+    cursor: pointer;
+    filter: invert(5%);
+}
+.otherEvents {
+    margin-top: 30px;
+}
+.otherEvents img{
+    max-width: 100%;
+    margin-bottom: 10px;
+}
+
+#indexbanner {
+    margin-bottom: 20px;
+}
+
+/* --- CAMPING --- */
+.campingbuttons .btn {
+    text-transform: uppercase;
+    font-size: 13x;
+    font-weight: bold;
+    padding: 2% 4%; 
+}
+.campingbuttons {
+    text-align: center; 
+    margin-bottom: 20px;
+}
+
+.campimages img{
+    width: 95%;
+}
+
+.campimages .col-4{
+    text-align: center;
+}
+
+/* --- CAMPING REG --- */
+.campingreg label {
+    color: #797979;
+}
+.campForm .btn {
+    margin: 10px 0;
+}
+.campForm .article .btn {
+    float: none; 
+    font-size: 12px;
+    width: 250px ;
+    height: 50px; 
+}
+
+.campForm .article {
+    text-align: center; 
+    margin: 0;
+}
+/* --- FOOTER --- */
+footer {
+    margin-top: 20px; 
+    border-top: 1px solid #797979; 
+}
+footer h2 {
+    font-size: 16px;
+}
+.footerlinks ul {
+    list-style: none;
+}
+
+.footerlinks li {
+    margin-left: -40px;
+}
+
+.footerlinks a {
+    color: #aa1d1d;
+}
+
+.footerlinks a:hover {
+    text-decoration: none;
+    color: #eaeaea;
+    transition: .5s;
+}
+
+.social .fa {
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    padding: 20px; 
+    width: 60px;
+    font-size: 16px; 
+}
+
+.social .fa:hover {
+    opacity: 0.7;
+}
+
+.social .fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+.social .fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+
+.social .fa-instagram {
+    background: #125688;
+    color: white;
+}
+
+/* --- PARTICIPANT --- */
+.participant {
+    font-size: 13px; 
+}
+
+.participant .col-5 {
+    margin-top: 5%; 
+}
+
+.col-5 .participantInfo {
+    margin-top: 25px; 
+}
+.participant h2, .participantPurchase h2, h3  {
+    color: #eaeaea;
+}
+
+.participantInfo p {
+    color: #eaeaea;
+}
+.participantInfo h2 {
+    font-size: 14px;
+}
+
+.participantInfo ul {
+    list-style: none;
+}
+
+.participantInfo ul li {
+    color: #797979;
+    font-size: 13px;
+    margin-left: -40px; 
+}
+label {
+    color: #797979;
+}
+
+.participant .btn {
+    padding: 5px 10px; 
+}
+
+.participantPurchase p {
+    color: #eaeaea;
+}
+
+#profilePic {
+    margin: 10px;
+    margin-right: 0;
+    margin-left: 20px;
+    max-width: 80%;
+    border: 8px solid #aa1d1d; 
+}
+
+/* --- BUNDLES --- */
+.bundles p {
+    font-size: 13px; 
+}
+
+.bundles .article .btn {
+    margin: 0; 
+    font-size: 12px; 
+    float: left;
+}

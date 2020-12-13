@@ -1,0 +1,114 @@
+html body {
+    background-color: black !important;
+    color: white !important;
+}
+
+.activitybuttons button {
+    width: 200px; 
+    padding: 30px;
+    margin: 20px; 
+}
+
+.settingImage, .funactivitytop, .eventimage, .funactivity, .camping1, .camping2, .campmap, .logo, .compinfoImage, .otherevent {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.funactivitytop, .regcontainer, .compinfoImage, .compinfobody {
+    padding-bottom: 30px;
+}
+
+.setting, .events, .fun, .rules, .normalreg, .camping1, .funactivitytop, .settingImage {
+    padding-top: 30px;
+}
+
+.bodyCaption {
+    padding-left: 30px;
+}
+
+.eventbuttons, .funbuttons, .campingtxt, .campingimages, .activitiestxt, .activitiesbtns, .settingbody, .campingtxt, .compinfoContainer, .otherevents {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.events .col-sm-12 h3 {
+    margin-top: 15px; 
+}
+
+.events .col-md-4 h3 {
+    margin-top: 0;
+}
+
+.events .col-lg-6 h3 {
+    margin-top: 0;
+}
+
+.btn:hover {
+    color:  #c42626 !important;
+    background-color: white !important;
+    transition: .5s;
+}
+
+.btn {
+    outline: none !important;
+    box-shadow: none !important;
+    background-color:  #c42626 !important;
+    color: white !important;
+}
+
+
+/* thanh */
+.eventbuttons, .funbuttons, .activitybuttons, .campingbtn, .regtitle, .otherevents, .compinfobtn, .othereventbtn {
+    text-align: center; 
+}
+
+.login, .signup {
+    margin: auto; 
+    margin-top: 5%; 
+    width: 50%; 
+    padding: 60px 30px 60px 30px; 
+    background-color: #2b0202;
+}
+
+.login img {
+    height: 50%; 
+}
+.loginform input {
+    float: right;
+    width: 60%; 
+}
+
+.loginform .btn {
+    margin: auto;
+    margin-bottom: 5%; 
+    width: 95%; 
+    padding: 10px; 
+}
+
+
+#bundlelink {
+    color: #c42626;
+}
+
+.topnav .btn, .topnav .btn:hover, .topnav .btn:active, .topnav .btn:visited, .topnav .btn:focus, .topnav .btn:active:focus {
+    background-color:  black !important;
+    color: white !important;
+    
+}
+
+.navbtn {
+    padding-right: 50px;
+}
+
+#toplink {
+    padding-left: 10px;
+}
+/* Dola */
+.compinfobuttons{ 
+       padding-left: 480px; 
+      
+}
+.bundlereg,.normalreg{
+          padding-left: 60px; 
+
+}

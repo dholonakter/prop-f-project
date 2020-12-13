@@ -1,0 +1,109 @@
+html body {
+    background-color: black !important;
+    color: white !important;
+}
+
+.settingImage, .funactivitytop, .eventimage, .funactivity, .camping1, .camping2, .campmap {
+    width: 100%;
+    height: 100%;
+}
+
+.funactivitytop, .regcontainer {
+    padding-bottom: 30px;
+}
+
+.setting, .events, .fun, .rules, .normalreg, .camping1, .funactivitytop, .settingImage {
+    padding-top: 30px;
+}
+
+
+.eventsbody, .funbody, .regbody {
+    display: inline-block;
+    text-align: left;
+    margin: auto;
+    padding-left: 30px;
+}
+
+.eventbuttons, .funbuttons, .campingtxt, .campingimages, .activitiestxt, .activitiesbtns, .settingbody, .campingtxt {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.btn, .btn:hover, .btn:active, .btn:visited, .btn:focus, .btn:active:focus {
+    background-color: darkred !important;
+    color: white !important;
+}
+
+
+/* thanh */
+.eventbuttons, .funbuttons, activitybuttons, campingbtn {
+    text-align: center; 
+}
+
+
+.login, .signup {
+    background-color: darkred;
+}
+
+.regtitle {
+    text-align: center;
+}
+
+#bundlelink {
+    color: darkred;
+}
+/* Dola
+.container{
+    float: left;
+  display: block;
+  margin-top: 5%;
+}*/
+#button-group{
+    padding-top: 30px;
+    padding-bottom: 30px;
+
+}
+
+/* thanh */
+.caption {
+	margin: 10px;
+}
+/*Dola*/
+.newsButton {
+    float: right;
+   background-color:red;
+    border: none;
+    color: white;
+    padding: 5px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    margin: 2px 2px;
+    cursor: pointer;
+}
+.subheader{
+    float: inherit; 
+}
+
+.Back,.Edit,.Rent,.Purchase,.Activation,.GetLink{
+    background-color: red;
+     border: none;
+    color: white;
+    padding: 5px 40px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 10px;
+    margin: 5px 1px;
+    cursor: pointer;
+}
+#CampingGroup{
+    text-align-last: left; 
+}
+h1{
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom:5px;
+    padding-left: 70px;
+}

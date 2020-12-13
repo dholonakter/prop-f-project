@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="./css/bootstrap.min.css">
+        <link rel="stylesheet" href="./js/bootstrap.bundle.min.js">
+        <link rel="stylesheet" href="./css/styles_talia.css">
+		<title>Camping Regulations</title>
+	</head>
+
+	<body>
+     <div class="campingregcontainer container">
+         <div class="regtitle">
+        
+             <h2><br>Wait! Check our <a id="bundlelink" href="bundles.html"><b>Bundles</b></a>!</h2>
+        </div>
+         
+        <div class="campingtxt">
+         <h2><br>Camping Registration</h2>
+            <h3><br>Choose a spot:</h3>
+        </div>
+         
+         
+         <div class="regcontainer row">
+            <div class="regmap media-left">
+                <img src="./images/CampingMap.png" alt="Camping Map" class="campmap img-responsive">
+            </div>
+             
+            <div class="regbody media-body">
+             
+                  <div class="bundlereg">
+                    <h2>With Bundle</h2>
+                    <form action="/action_page.php">
+                        <label for="activationcode"><b>Enter the bundle code:</b></label>
+                      <input type="text" placeholder="Enter Code" name="activationcode" >
+                    </form> 
+                    <br><button onclick="" class="btn">Activate Code</button>
+
+                  </div>
+
+                 <div class="normalreg">
+                    <h2>Normal Registration</h2> 
+                    <form action="">
+                      <label><b>Are there more person?</b></label><br>
+                      <input type="radio" name="question" value="yes"> Yes<br>
+                      <input type="radio" name="question" value="no"> No<br>
+                    </form>
+
+
+                    <form action="/action_page.php">
+                    <label for="persons"><b>How many persons?</b></label>    
+                    <select name="persons">
+                      <option value="0">0</option>
+                      <option value="1">1</option>
+                      <option value="2">2</option>
+                      <option value="3">3</option>
+                      <option value="4">4</option>
+                      <option value="5">5</option>
+                      <option value="6">6</option>
+                    </select>
+                    </form>
+
+                    <form action="">
+                      <br><label><b>How will you pay?</b></label><br>
+                      <input type="radio" name="payment" value="ideal"> iDeal<br>
+                      <input type="radio" name="payment" value="paypal"> PayPal<br>
+                      <input type="radio" name="payment" value="ipay"> iPay<br>
+                      <input type="radio" name="payment" value="entrance"> At the entrance<br>
+                    </form>
+
+                    <br><button onclick="" class="btn">Register Campsite</button>
+
+                </div>
+             </div>
+        
+            </div>
+         
+        </div>
+        
+    
+	</body>
+	</html>

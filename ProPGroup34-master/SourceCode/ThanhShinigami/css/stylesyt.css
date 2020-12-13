@@ -1,0 +1,546 @@
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    font-family: 'Roboto', 'Helvetica', 'Arial', 'sans-serif';
+    font-size: 14px; 
+}
+
+a {
+    color: inherit;
+    -webkit-transition: all .35s;
+    -moz-transition: all .35s;
+    transition: all .35s;
+}
+
+a:hover {
+    text-decoration: none;
+    color: inherit;
+}
+
+hr {
+  max-width: 120px;
+  margin: 0 auto 0;
+  border-width: 3px;
+  border-color: #ec2323;
+}
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Catamaran', 'Helvetica', 'Arial', 'sans-serif';
+    font-weight: 200;
+    letter-spacing: 1px;
+}
+
+h2 {
+    font-size:  50px;
+    
+}
+
+p {
+    font-size: 16px; 
+}
+
+#index p:not(footer p){
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+    color: #d62020;
+}
+
+.bundles .caption {
+    font-size: 16px;
+}
+
+/* MAIN NAV */
+#mainNav {
+    border-color: rgba(34, 34, 34, 0.05);
+    background-color: white;
+    -webkit-transition: all .35s;
+    -moz-transition: all .35s;
+    transition: all .35s;
+    font-family: 'Catamaran', 'Helvetica', 'Arial', 'sans-serif';
+    font-weight: 200;
+    letter-spacing: 1px;
+}
+
+#mainNav .navbar-brand {
+    color: rgba(255, 255, 255, 0.8);
+    font-family: 'Catamaran', 'Helvetica', 'Arial', 'sans-serif';
+    font-weight: 200;
+    letter-spacing: 1px;
+    text-transform: lowercase;
+}
+
+#mainNav .navbar-toggler {
+    font-size: 12px;
+    padding: 8px 10px;
+    color: #222222;
+}
+
+#mainNav .navbar-nav > li > a {
+    font-size: 11px;
+    font-family: 'Lato', 'Helvetica', 'Arial', 'sans-serif';
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+#mainNav .navbar-nav > li > a.active {
+    color: #f00000 !important;
+    background-color: transparent;
+}
+
+#mainNav .navbar-nav > li > a.active:hover {
+    background-color: transparent;
+}
+
+#mainNav .navbar-nav > li > a,
+#mainNav .navbar-nav > li > a:focus {
+    color: #222222;
+}
+
+#mainNav .navbar-nav > li > a:hover,
+#mainNav .navbar-nav > li > a:focus:hover {
+    color: rgba(255, 255, 255, 1);
+}
+.navbar-shrink {
+    background-color: #222222 !important;
+}
+
+@media (min-width: 992px) {
+    /* nav on big screens */
+    #mainNav {
+        border-color: transparent;
+        background-color: transparent;
+    }
+    #mainNav .navbar-brand {
+        color: fade(white, 70%);
+    }
+    #mainNav .navbar-brand:hover, #mainNav .navbar-brand:focus {
+        color: white;
+    }
+    #mainNav .navbar-nav > li > a,
+    #mainNav .navbar-nav > li > a:focus {
+        color: rgba(255, 255, 255, 0.7);
+    }
+    #mainNav .navbar-nav > li > a:hover,
+    #mainNav .navbar-nav > li > a:focus:hover {
+        color:  fade(white, 70%) !important;
+    }
+    #mainNav.navbar-shrink {
+        border-color: rgba(34, 34, 34, 0.1);
+        background-color: white;
+    }
+    #mainNav.navbar-shrink .navbar-brand {
+        color: rgba(255, 255, 255, 0.9);
+    }
+    
+    #mainNav.navbar-shrink .navbar-brand:hover, #mainNav.navbar-shrink .navbar-brand:focus {
+        color: #f00000;
+        
+    }
+    
+    #mainNav.navbar-shrink .navbar-nav > li > a,
+    #mainNav.navbar-shrink .navbar-nav > li > a:focus {
+        color: white;
+    }
+    
+    #mainNav.navbar-shrink .navbar-nav > li > a:hover,
+    #mainNav.navbar-shrink .navbar-nav > li > a:focus:hover {
+        color: rgba(255, 255, 255, 0.5);
+    }
+}
+
+/* Moving gradient thingie */
+header.masthead {
+    position: relative;
+    width: 100%;
+    padding-top: 150px;
+    padding-bottom: 100px;
+    color: white;
+    background: linear-gradient(45deg, #200122, #1a2a6c, #b21f1f, #fdbb2d);
+    background-size: 400%; 
+    -webkit-animation: Gradient 12s ease infinite;
+    -moz-animation: Gradient 12s ease infinite;
+    animation: Gradient 12s ease infinite;
+}
+@-webkit-keyframes Gradient {
+    0% {
+        background-position: 0% 50%
+    }
+    50% {
+        background-position: 100% 50%
+    }
+    100% {
+        background-position: 0% 50%
+    }
+}
+@-moz-keyframes Gradient {
+    0% {
+        background-position: 0% 50%
+    }
+    50% {
+        background-position: 100% 50%
+    }
+    100% {
+        background-position: 0% 50%
+    }
+}
+@keyframes Gradient {
+    0% {
+        background-position: 0% 50%
+    }
+    50% {
+        background-position: 100% 50%
+    }
+    100% {
+        background-position: 0% 50%
+    }
+}
+
+header.masthead .header-content {
+    max-width: 500px;
+    margin-bottom: 100px;
+    text-align: center;
+}
+
+header.masthead .header-content h1 {
+    font-size: 30px;
+}
+
+@media (min-width: 992px) {
+    header.masthead {
+        height: 100vh;
+        min-height: 775px;
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+    header.masthead .header-content {
+        margin-bottom: 0;
+        text-align: left;
+    }
+    header.masthead .header-content h1 {
+        font-size: 50px;
+    }
+    header.masthead .device-container {
+        max-width: 325px;
+    }
+}
+
+/* SECTIONS */
+section {
+    padding: 100px 0;
+}
+
+section h2 {
+    font-size: 50px;
+}
+
+.bg-primary .btn {
+    border-color: #f00000;
+    color: #f00000;
+    background-color: transparent;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.3);
+    transition: all 0.5s;
+}
+
+#camptopoverlay .overlay {
+    cursor: pointer;
+}
+
+/* BACKGROUND SETTINGS */
+
+.bg-light {
+    color: #222222 !important;
+}
+.bg-primary{
+    color: #d62020;
+    background: #fff !important;
+}
+
+.bg-dark {
+    color: white; 
+    background: black !important;
+}
+
+.bg-secondary {
+    color: white;
+    background: #ce2323 !important;
+}
+
+.bg-secondary .btn, .bg-secondary .btn:hover {
+    color: white ;
+    border-color: white;
+    background-color: transparent;
+}
+
+/* BUTTONS - THANH */
+.btn {
+    border-radius: 8px;
+    font-family: 'Muli', 'Helvetica', 'Arial', 'sans-serif';
+    font-weight: 100;
+}
+
+section .btn-outline, header .btn-outline {
+    color: white;
+    border: 1px solid;
+    border-color: white;
+}
+
+.btn-outline:hover, .btn-outline:focus, .btn-outline:active, .btn-outline.active {
+    color: white !important;
+    border-color: #f00000 !important;
+    background-color: #f00000 !important;
+}
+
+section .btn, header .btn {
+    border-radius: 300px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.btn-xl {
+    font-size: 11px;
+    padding: 15px 45px;
+}
+
+/* buttons - chan */
+
+.btn-info, .btn-danger, .btn-primary, .btn-secondary, .btn-success, .btn-warning
+{
+    font-size: 14px;
+    font-family: 'Roboto'; 
+    font-weight: 300;
+    color: white !important;
+    background-color: #ce2323;
+    border-color: #ce2323 ;
+    border-radius: 0;
+}
+
+.btn-success
+{
+    font-size: 11px; 
+}
+
+
+.btn-secondary
+{
+    position: relative;
+    height: 120px;
+    width: 180px;
+    letter-spacing: 1px;
+    border-radius: 0;
+    background-color: #ce2323;
+    border-color: #ce2323;
+}
+    
+.btn-secondary:hover, .btn-info:hover, .btn-success:hover
+{
+    background-color: transparent;
+    transition: all .4s;
+    color: #f00000 !important;
+    border-color: #f00000;
+    border-radius: 5px;
+}
+
+/* CHAN'S CENTERING */
+/* fancy stuff */
+
+.centering
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.centering-Y /* currently not in use */
+{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+
+/* FOOTER */
+footer {
+    padding: 25px;
+    text-align: center;
+    color: white;
+    background-color: #222222;
+}
+
+footer p {
+    font-size: 12px !important;
+    color: rgba(255, 255, 255, 0.3) !important; 
+    margin: 0;
+}
+
+footer ul {
+    margin-bottom: 0;
+}
+
+footer ul li a {
+    font-size: 12px;
+    color: rgba(255, 255, 255, 0.3);
+}
+
+footer ul li a:hover, footer ul li a:focus, footer ul li a:active, footer ul li a.active {
+    text-decoration: none;
+}
+
+/* F.A ICONS */
+/* Style all font awesome icons */
+section .fa, footer .fa{
+    padding: 20px;
+    font-size: 30px;
+    width: 70px;
+    text-align: center;
+    text-decoration: none;
+    margin: 0px 10px;
+    color: white;
+    opacity: 1;
+}
+
+footer .fa {
+    width: 60px;
+    font-size: 16px; 
+    margin: 0 5px;
+}
+
+
+/* Add a hover effect if you want */
+section .fa:hover, footer .fa:hover {
+    opacity: 0.8;
+    color: white;
+    font-size: 28px; /* funkyyyy */
+    transition: all 0.4s;
+}
+footer .fa:hover {
+    font-size: 14px; 
+}
+
+footer {
+    font-size: 12px; 
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+/* Twitter */
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+
+.fa-google {
+    background: #dd4b39;
+    color: white;
+}
+
+.fa-instagram {
+    background: #125688;
+    color: white;
+}
+
+
+/* CAMP */
+#camptop {
+    position: relative;
+    transition: all .5s;
+    cursor: pointer;
+}
+#camptopoverlay {
+    position: absolute;
+    color: white !important;
+    transition: all .5s;
+}
+#camptopoverlay p {
+    font-weight: 800;
+    margin-top: 10%;
+    text-align: center;
+    font-size: 100px; 
+    letter-spacing: 2px;
+    border-bottom: 2px solid white;
+    border-top: 2px solid white;
+}
+
+/* TYPOGRAPHY */
+.coolheading {
+    text-transform: uppercase;
+    text-align: center;
+    border-bottom: 2px solid #f00000;
+    letter-spacing: 3px;
+}
+
+/* SECTIONS FOR SETTING */
+
+section.withimage {
+    position:relative;
+    background-position: center;
+    color: white;
+}
+
+section.withimage .btn {
+    border-color: white;
+    color: white;
+    background-color: transparent;
+}
+section.withimage .withimage-content {
+    position: relative;
+    z-index: 1;
+    /* display first w/ respect to section.test */
+}
+
+#guthix {
+    background-image: url("../images/guthix.png");
+}
+
+#godwars {
+    background-image: url("../images/godwars.jpg");
+}
+
+#divine {
+    background-image: url("../images/tuska.png");
+}
+
+/* FORM LOGIN/SIGNUP */
+.formthing p {
+    font-size: 13px; 
+    font-family: segoe ui; 
+}
+
+.formthing input {
+    font-size: 12px; 
+    max-height: 23px; 
+}
+
+.formthing .btn {
+    background-color: white;
+    color: #ce2323 !important;
+}
+
+.formthing .btn:hover{
+    color: white !important;
+}
